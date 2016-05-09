@@ -34,6 +34,7 @@
 	margin-top: 0px;
 	width:100%;
 	padding:20px;
+	display: inline-block;
 }
 
 .navitem:hover{
@@ -75,11 +76,54 @@ header{
 	padding:10px;
 	margin-top:20px;
 	display: inline-block;
+	
 
 }
 
-#form-main{
+.graphicart{
+	float: left;
+	background-color: white;
+	margin-left: 75px;
+	width:56%;
+	padding:10px;
+	margin-top:20px;
+
+	
+}
+.graphicart h2 {
+	color: #4aaaa5;
+	margin-left:20px;
+}
+.graphicart h4 {
+	
+	margin-left:20px;
+}
+
+.graphicart img {
+	height: 700px;
+	width:500px;
+	margin-left: 20px;
+}
+
+
+.form-main{
 	float:left;
+	
+	padding:10px;
+	padding-top: 0px;
+
+}
+.form-main h3 {
+	margin-left: 10px;
+	margin-bottom: 0px
+
+}
+
+.form-main p {
+	width: 75%;
+	margin: 0px;
+	padding: 0px;
+
 }
 
 
@@ -116,6 +160,7 @@ header{
 .aboutme p{
 	padding:10px;
 	}
+
 .bottombar { 
 	width:1000px;
 	height:5px;
@@ -140,3 +185,8 @@ header{
  	margin-bottom: 20px;
  	opacity: .5;
  }
+ .submit {
+ 	margin-left: 10px;
+ 	height:30px;
+ 	width:100px;
+ 	 }

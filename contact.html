@@ -24,8 +24,30 @@
 				<p>
 				</p>
 				</div>
-				
+				<div class="form-main">
+					  <div id="form-div">
+					    <form class="form" id="form1">
+					      <h3> Name </h3>
+					      <p class="name">
+					        <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,1000]] feedback-input" placeholder="John Smith" id="name" />
+					      </p>
+					      <h3> Email </h3>
+					      <p class="email">
+					        <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+					      </p>
+
+					      <h3> Message </h3>
+					      <p class="text">
+					        <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Comment"></textarea>
+					      </p>
+					      <div class="submit">
+					        <input type="submit" value="Submit" id="button-blue"/>
+					        <div class="ease"></div>
+					      </div>
+					    </form>
+					  </div>
 				</div>
+			</div>
 			<div class="connect">
 				<h3> Connect with Me </h3>
 				<div class="greybar2">
