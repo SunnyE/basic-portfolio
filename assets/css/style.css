@@ -52,6 +52,7 @@ li a{
 	width:960px;
 	margin:0;
 	padding:0;
+	border:0;
 }
 footer{
 	float:left;
@@ -76,6 +77,11 @@ header{
 	display: inline-block;
 
 }
+
+#form-main{
+	float:left;
+}
+
 
 .connect {
 	float:right;
@@ -117,8 +123,20 @@ header{
 	float:left;
  }
  .greybar {
- 	width:150px;
- 	height:30px;
- 	float:center;
+ 	width:93%;
+ 	height:3px;
+ 	margin-left:20px;
  	background-color: gray;
+ 	padding:0px;
+ 	margin-bottom: 20px;
+ 	opacity: .5;
+ }
+  .greybar2 {
+ 	width:80%;
+ 	height:3px;
+ 	margin-left:20px;
+ 	background-color: gray;
+ 	padding:0px;
+ 	margin-bottom: 20px;
+ 	opacity: .5;
  }
